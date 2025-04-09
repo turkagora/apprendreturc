@@ -1,0 +1,2 @@
+landing page: layouts/index.html
+navbar renkleri için: assets, scss

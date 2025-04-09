@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/docs/d%C3%A9butant/alphabet-turc/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/d%C3%A9butant/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/avanc%C3%A9/%C5%9Fart-kipi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/int%C3%A9rm%C3%A9diaire/le-pass%C3%A9-connu/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/int%C3%A9rm%C3%A9diaire/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/avanc%C3%A9/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+</urlset>

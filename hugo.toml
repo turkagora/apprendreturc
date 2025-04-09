@@ -1,0 +1,51 @@
+baseURL = "https://turkagora.github.io/apprendreturc/"
+languageCode = "fr"
+title = "Apprendre le turc"
+theme = "docsy"
+enableRobotsTXT = true
+publishDir = "docs"
+
+[params]
+  description = "Cours de turc pour francophones"
+  sidebar_menu_compact = false
+  sidebar_menu_foldable = true
+  sectionPagesMenu = "docs"
+  logo = "icons/logo.svg"
+  
+[params.ui]
+showLightDarkModeMenu = true
+  
+[[menu.main]]
+  name = "Accueil"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Cours"
+  url = "/docs/"
+  weight = 2
+
+[[menu.main]]
+  name = "Vidéos"
+  url = "/videos/"
+  weight = 3
+
+[[menu.main]]
+  name = "À propos"
+  url = "/about/"
+  weight = 4
+
+[[menu.docs]]
+  name = "Débutant"
+  url = "/docs/débutant/"
+  weight = 1
+
+[[menu.docs]]
+  name = "Intermédiaire"
+  url = "/docs/intermédiaire/"
+  weight = 2
+
+[[menu.docs]]
+  name = "Avancé"
+  url = "/docs/avancé/"
+  weight = 3
