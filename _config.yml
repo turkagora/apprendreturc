@@ -99,8 +99,6 @@ defaults:
       comments: true
       share: true
       related: true
-    sidebar:
-      nav: "docs"
 
   # _pages
   - scope:
@@ -109,8 +107,6 @@ defaults:
     values:
       layout: single
       author_profile: false
-    sidebar:
-      nav: "docs"
 
 category_archive:
   type: liquid
