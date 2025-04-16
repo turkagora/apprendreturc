@@ -9,10 +9,10 @@ main:
     url: /about/
 
 docs:
-  - title: Getting Started
+  - title: post-modified
     children:
       - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
+        url: _posts/2010-01-07-post-modified.md
       - title: "Structure"
         url: /docs/structure/
       - title: "Installation"
