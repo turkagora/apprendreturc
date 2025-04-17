@@ -1,6 +1,6 @@
 ---
 title: "Les cours de turc"
-permalink: /posts/
+permalink: /pages/debutant/
 layout: posts
 author_profile: false
 sidebar:
