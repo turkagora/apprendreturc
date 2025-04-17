@@ -12,7 +12,7 @@ docs:
   - title: Débutant
     children:
       - title: "Les lettres bizarres dans l'alphabet turc"
-        url: _posts/débutant/_alphabetturc.md
+        url: _posts/débutant/alphabetturc.md
       - title: "Yeni alt başlık için bunu değiştir"
         url: _posts/débutant/_alphabetturc.md
 
