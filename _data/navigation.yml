@@ -8,7 +8,7 @@ main:
   - title: "À propos"
     url: /about/
 
-Docs:
+docs:
   - title: Débutant
     children:
       - title: "Les lettres bizarres dans l'alphabet turc"
