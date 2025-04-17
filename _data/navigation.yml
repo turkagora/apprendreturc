@@ -9,16 +9,13 @@ main:
     url: /about/
 
 docs:
-  - title: post-modified
+  - title: Débutant
     children:
-      - title: "Quick-Start Guide"
-        url: _posts/2010-01-07-post-modified.md
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+      - title: "Les lettres bizarres dans l'alphabet turc"
+        url: _alphabetturc.md
+      - title: "Yeni alt başlık için bunu değiştir"
+        url: _posts/débutant/_alphabetturc.md
+
 
   - title: Customization
     children:
