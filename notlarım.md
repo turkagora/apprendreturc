@@ -1,3 +1,13 @@
+Cours sayfasındaki sol sidebar menüsü için: _data/navigation.yml dosyasını değiştir. Sonra aşağıdaki kodu _pages/Cours.md içine yapıştır menüyü aktif hale getirmek için. Başka sayfalara da menü eklemek için benzer işlemi uygula.
+sidebar:
+  nav: "docs"
+
+  ---
+  
+
+
+
+
 # Minimal Mistakes remote theme starter
 
 Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
