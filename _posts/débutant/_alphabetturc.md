@@ -1,3 +1,13 @@
+---
+title: "Les lettres bizarres dans l'alphabet turc"
+last_modified_at: 2025-04-09T16:20:02-05:00
+categories:
+  - Blog
+tags:
+  - alphabet
+  - lettres
+---
+
 L'alphabet turc, quel délire avec les lettres qui frappe les oreilles "f,s,t,k,ç,ş,h,p"! Si vous avez déjà essayé de lire un texte turc, vous avez probablement croisé des lettres qui vous ont fait grincer des dents ou vous demander si votre clavier était en mode expérimental. Pas de panique, je vais vous guider à travers quelques-unes de ces lettres "bizarres" qui n'existent pas dans l'alphabet français.
 1. Ç, ç : "Le C mystique"
 
