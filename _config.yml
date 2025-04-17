@@ -99,13 +99,6 @@ defaults:
       comments: true
       share: true
       related: true
-  # docs
-  - scope:
-      path: "docs"
-      type: docs
-    values:
-      layout: single
-      author_profile: false
   # _pages
   - scope:
       path: "_pages"
@@ -113,6 +106,20 @@ defaults:
     values:
       layout: single
       author_profile: false
+
+collections:
+  docs:
+    output: true
+    permalink: /:path/
+    defaults:
+      - scope:
+          path: ""
+          type: docs
+        values:
+          layout: single
+          author_profile: true
+          share: true
+          related: true
 
 category_archive:
   type: liquid
