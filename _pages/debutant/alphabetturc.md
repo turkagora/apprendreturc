@@ -1,6 +1,6 @@
 ---
 title: "Les lettres bizarres dans l'alphabet turc"
-permalink: /_pages//débutant/alphabetturc/
+permalink: /_pages//debutant/alphabetturc/
 last_modified_at: 2025-04-09T16:20:02-05:00
 layout: single
 author_profile: false
