@@ -20,19 +20,19 @@
   "jekyll-doc-theme"
 ;
 
-/* Make headings and bold text more subtle */
-h1, h2, h3, h4, h5, h6 {
-  font-size: 90%;
+/* Tweak only mid-level headings, not everything */
+h2, h3, h4 {
+  font-size: 95%;
   font-weight: 500;
 }
 
 strong {
   font-weight: 600;
-  font-size: 0.95em;
+  font-size: 0.97em;
 }
 
 /* Optional: shrink emoji size inside headings */
-h1 span.emoji, h2 span.emoji, h3 span.emoji {
-  font-size: 0.9em;
+h2 span.emoji, h3 span.emoji {
+  font-size: 0.95em;
   vertical-align: middle;
 }
