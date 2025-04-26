@@ -1,7 +1,7 @@
 ---
-title: "Les démonstratifs en turc : bu, şu, o / burası, şurası, orası"
-permalink: /docs/les demonstratifs/
-redirect_from: /docs/démonstratifs.md/
+title: "Les démonstratifs: bu, şu, o"
+permalink: /docs/les démonstratifs/
+redirect_from: /docs/démonstratifs.md
 ---
 
 ## Comprendre les démonstratifs en turc
