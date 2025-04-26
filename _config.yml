@@ -6,8 +6,8 @@ description: >
   providing documentation and blog post pages.
 lang: en-US
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://turkagora.github.io/apprendreturc/ # the base hostname & protocol for your site
+baseurl: "/apprendreturc" # the subpath of your site, e.g. /blog/
+url: https://turkagora.github.io # the base hostname & protocol for your site
 git_address: https://turkagora.github.io/apprendreturc/
 git_edit_address: https://turkagora.github.io/apprendreturc/
 
