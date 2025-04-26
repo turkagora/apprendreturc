@@ -1,10 +1,15 @@
-- title: Débutant
+- title: Bienvenu
   docs:
   - home
   - themes
   - customization
 
-- title: Examples
+  - title: Débutant
+  docs:Les lettres bizarres dans l'alphabet turc
+  - les démonstratifs
+  - l'utilisation du verbe être
+
+- title: Intermédiaire
   docs:
   - cheatsheet
   - font-awesome
