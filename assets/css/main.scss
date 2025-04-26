@@ -5,17 +5,34 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 
+{% if site.bootwatch %}
+@import "bootswatch/{{site.bootwatch | downcase}}/variables";
+{% endif %}
+
+@import "bootstrap";
+
+{% if site.bootwatch %}
+@import "bootswatch/{{site.bootwatch | downcase}}/bootswatch";
+{% endif %}
+
 @import
-  {% if site.bootwatch %}
-    "bootswatch/{{site.bootwatch | downcase}}/variables",
-  {% endif %}
-
-  "bootstrap",
-
-  {% if site.bootwatch %}
-    "bootswatch/{{site.bootwatch | downcase}}/bootswatch",
-  {% endif %}
-
   "syntax-highlighting",
   "jekyll-doc-theme"
 ;
+
+/* Make headings and bold text more subtle */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 90%;
+  font-weight: 500;
+}
+
+strong {
+  font-weight: 600;
+  font-size: 0.95em;
+}
+
+/* Optional: shrink emoji size inside headings */
+h1 span.emoji, h2 span.emoji, h3 span.emoji {
+  font-size: 0.9em;
+  vertical-align: middle;
+}
