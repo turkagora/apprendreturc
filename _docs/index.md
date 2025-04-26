@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Utilisation du site
 permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
