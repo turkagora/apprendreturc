@@ -26,14 +26,14 @@ h2, h3, h4 {
   font-weight: 500;
 }
 
-strong {
-  font-weight: 600;
-  font-size: 0.97em;
-}
-
 body {
   font-size: 16px; // or try 1rem or 100%
   line-height: 1.6; // improves readability
+}
+
+strong {
+  font-weight: 600;
+  font-size: 30px;
 }
 
 /* Optional: shrink emoji size inside headings */
