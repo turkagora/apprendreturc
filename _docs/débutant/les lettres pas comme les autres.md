@@ -1,12 +1,11 @@
 ---
-title: "Les lettres bizarres dans l'alphabet turc"
+title: "Les lettres “pas comme les autres"
 permalink: /docs/Alphabet turc/
 redirect_from: /docs/les lettres pas comme les autres.md
 ---
 
-# 🔤 Les lettres “pas comme les autres”
 
-L’alphabet turc utilise les lettres latines, mais avec quelques ajustements qui peuvent dérouter au premier abord. Certaines lettres ont un son différent de celui qu’on attend, d’autres n’existent pas du tout en français. Voici une petite visite guidée de ces lettres “spéciales” qui méritent un peu d’attention. 😉
+🔤 L’alphabet turc utilise les lettres latines, mais avec quelques ajustements qui peuvent dérouter au premier abord. Certaines lettres ont un son différent de celui qu’on attend, d’autres n’existent pas du tout en français. Voici une petite visite guidée de ces lettres “spéciales” qui méritent un peu d’attention. 😉
 
 ## 1. **C, c** – Le “j” à l’anglaise 🧥
 
@@ -41,10 +40,12 @@ C’est un peu le **ninja** de l’alphabet : invisible, mais il agit dans l’o
 
 ## 5. **I, ı** – İ, i : Deux lettres, deux sons 👯‍♂️
 
-Le turc distingue deux versions du **i** :
+En turc on distingue deux versions du **i** :
 
-- **İ, i** (avec point) → comme en français : *bilgi*, *İstanbul*  
-- **I, ı** (sans point) → un son plus grave et plus fermé, à l’arrière de la gorge : *kadın* (femme), *sıcak* (chaud)
+- **İ, i** (avec point) → comme en français "film".
+➡️ *bilgi*, *İstanbul*  
+- **I, ı** (sans point) → un son plus grave et plus fermé, à l’arrière de la gorge. Essayez de faire un "ou" en souriant.
+➡️ *kadın* (femme), *sıcak* (chaud)
 
 ⚠️ **Attention** à ne pas les confondre — même leur majuscule change selon le point !
 
