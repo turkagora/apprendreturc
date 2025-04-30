@@ -8,6 +8,20 @@
   z-index: 1000;
 }
 
+.search-box-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-button {
+  margin-left: 8px; /* Adjust spacing as needed */
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  color: #555; /* Adjust color as needed */
+}
+
 .navbar-container {
   padding-top: 0;
   padding-bottom: 0;
