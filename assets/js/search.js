@@ -1,39 +1,45 @@
-async function loadSearch() {
-  const response = await fetch('/search.json');
-  const indexData = await response.json();
+(function () {
+  function getQueryVariable(variable) {
+    var query = window.location.search.substring(1);
+    var vars = query.split("&");
+    for (var i = 0; i < vars.length; i++) {
+      var pair = vars[i].split("=");
+      if (decodeURIComponent(pair[0]) === variable) {
+        return decodeURIComponent(pair[1].replace(/\+/g, " "));
+      }
+    }
+    return null;
+  }
 
-  const idx = lunr(function () {
-    this.ref('url');
-    this.field('title');
-    this.field('content');
+  var searchTerm = getQueryVariable("query");
+  var searchResults = document.getElementById("search-results");
 
-    indexData.forEach(doc => {
-      this.add(doc);
+  if (searchTerm) {
+    document.getElementById("search-box").value = searchTerm;
+
+    var idx = lunr(function () {
+      this.ref("url");
+      this.field("title");
+      this.field("author");
+      this.field("category");
+      this.field("content");
+
+      for (var key in window.store) {
+        this.add(window.store[key]);
+      }
     });
-  });
 
-  const searchInput = document.getElementById('search-input');
-  const searchResults = document.getElementById('search-results');
+    var results = idx.search(searchTerm);
 
-  searchInput.addEventListener('input', function () {
-    const query = this.value;
-    const results = idx.search(query);
-    displayResults(results, indexData);
-  });
-
-  function displayResults(results, data) {
-    searchResults.innerHTML = '';
-    if (results.length) {
-      results.forEach(result => {
-        const item = data.find(d => d.url === result.ref);
-        const li = document.createElement('li');
+    if (results.length > 0) {
+      results.forEach(function (result) {
+        var item = window.store[result.ref];
+        var li = document.createElement("li");
         li.innerHTML = `<a href="${item.url}">${item.title}</a>`;
         searchResults.appendChild(li);
       });
     } else {
-      searchResults.innerHTML = '<li>No results found</li>';
+      searchResults.innerHTML = "<li>Aucun résultat</li>";
     }
   }
-}
-
-document.addEventListener('DOMContentLoaded', loadSearch);
+})();
