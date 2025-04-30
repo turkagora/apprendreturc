@@ -25,18 +25,19 @@
       </ul>
       <div class="navbar-right">
         <!-- 🔍 Search Form -->
-        <form class="navbar-form navbar-left" onsubmit="return false;" role="search">
+        <form class="navbar-form navbar-left" action="/search/" method="get" role="search">
           <div class="form-group has-feedback">
             <input id="search-box"
+				   name="query"
                    type="search"
                    class="form-control"
                    placeholder="Rechercher..."
                    aria-label="Search"
                    autocomplete="off"
                    minlength="2">
-            <span class="form-control-feedback" aria-hidden="true">
-              <i class="fa fa-search"></i>
-            </span>
+			<button type="submit" class="form-control-feedback" aria-label="Submit search">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
           </div>
         </form>
         <ul class="nav navbar-nav">
