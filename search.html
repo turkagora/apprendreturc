@@ -5,6 +5,9 @@ permalink: /search.html
 
 {% include topnav.html %} <!-- Include the navigation bar -->
 
+<!-- Add Font Awesome CSS in the head section -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 <div class="search-container">
   <div class="search-header">
     <div class="logo">
@@ -27,11 +30,9 @@ permalink: /search.html
     <form action="{{ site.baseurl }}/search.html" method="get" class="search-form">
       <div class="search-box-container">
         <input type="text" id="search-box" name="query" value="{{ page.query }}" autocomplete="off" aria-label="Search">
-        <div class="search-buttons">
-          <button type="submit" class="search-button">
-            <i class="fas fa-search"></i> <!-- Search icon -->
-          </button>
-        </div>
+        <button type="submit" class="search-button" aria-label="Search">
+          <i class="fas fa-search"></i> <!-- Search icon -->
+        </button>
       </div>
     </form>
   </div>
@@ -74,6 +75,7 @@ permalink: /search.html
     border-radius: 24px;
     padding: 5px 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
   }
 
   .search-box-container:hover {
@@ -86,24 +88,26 @@ permalink: /search.html
     outline: none;
     font-size: 16px;
     padding: 10px 0;
-  }
-
-  .search-buttons {
-    display: flex;
-    align-items: center;
-    margin-left: 10px; /* Space between the input and button */
+    background: transparent;
   }
 
   .search-button {
     background: none;
     border: none;
     cursor: pointer;
-    padding: 8px;
+    padding: 8px 8px 8px 12px; /* More padding on left to separate from input */
     color: #4285F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-button:hover {
+    opacity: 0.8;
   }
 
   .search-button i {
-    font-size: 20px; /* Size of the search icon */
+    font-size: 18px;
   }
 
   .results-count {
@@ -144,6 +148,13 @@ permalink: /search.html
     background-color: #f8f9fa;
     font-weight: bold;
     padding: 0 2px;
+  }
+
+  .no-results {
+    color: #70757a;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
   }
 </style>
 
