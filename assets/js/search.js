@@ -45,17 +45,20 @@ document.addEventListener("DOMContentLoaded", function () {
         });
       }
 
+      // Trigger search on input
       searchInput.addEventListener("input", function () {
         runSearch(this.value.trim());
       });
 
+      // Trigger search on Enter key press
       searchInput.addEventListener("keydown", function (e) {
         if (e.key === "Enter") {
-          e.preventDefault();
+          e.preventDefault(); // Prevent form submission
           runSearch(this.value.trim());
         }
       });
 
+      // Hide results when clicking outside
       document.addEventListener("click", function (e) {
         if (!searchInput.contains(e.target) && !resultsContainer.contains(e.target)) {
           resultsContainer.style.display = "none";
