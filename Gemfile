@@ -12,7 +12,7 @@ gem "github-pages", group: :jekyll_plugins
 #    gem "jekyll-sitemap"
 #    gem "jekyll-redirect-from"
 #    gem "jekyll-seo-tag"
-#	 gem "jekyll-lunr-js-search"
+#	   gem "jekyll-lunr-js-search"
 # end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
