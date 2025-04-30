@@ -25,7 +25,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-lunr-js-search
-
+include:
+  - search.json
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -33,15 +34,6 @@ exclude:
   - .gitignore
   - README.md
   - vendor
-
-lunr_search:
-  exclude: [index.html, about.md]
-  ref: id
-  fields: 
-    title: 10
-    content: 1
-    url: 20
-    
 timezone: Europe/Berlin
 defaults:
 - scope:
