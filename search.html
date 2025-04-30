@@ -66,16 +66,17 @@ permalink: /search.html
   .red { color: #EA4335; }
   .yellow { color: #FBBC05; }
   .green { color: #34A853; }
-
+  
   .search-box-container {
     position: relative;
     display: flex;
     align-items: center;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
-    padding: 5px 15px;
+    padding: 5px 8px 5px 16px; /* More padding on left than right */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: box-shadow 0.3s ease;
+    width: 100%; /* Ensure full width */
   }
 
   .search-box-container:hover {
