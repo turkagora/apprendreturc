@@ -1,32 +1,44 @@
-// Fetch search.json and perform search
-document.addEventListener('DOMContentLoaded', () => {
-  const urlParams = new URLSearchParams(window.location.search);
-  const query = urlParams.get('query');
-  
-  if (query) {
-    document.getElementById('query').textContent = query;
-    fetch('/search.json')
-      .then(response => response.json())
-      .then(data => {
-        const results = data.docs.filter(item => 
-          item.title.toLowerCase().includes(query.toLowerCase()) || 
-          item.content.toLowerCase().includes(query.toLowerCase())
-        );
-        displayResults(results);
-      });
-  }
-});
+document.addEventListener("DOMContentLoaded", function () {
+  const searchInput = document.getElementById("search-box");
+  const resultsContainer = document.getElementById("search-results");
 
-function displayResults(results) {
-  const resultsList = document.getElementById('results-list');
-  if (results.length === 0) {
-    resultsList.innerHTML = '<li>No results found.</li>';
-  } else {
-    resultsList.innerHTML = results.map(item => `
-      <li>
-        <a href="${item.url}">${item.title}</a>
-        <p>${item.content.substring(0, 150)}...</p>
-      </li>
-    `).join('');
-  }
-}
+  fetch("/search.json")
+    .then(response => response.json())
+    .then(data => {
+      const docs = data.docs.filter(doc => doc.url.startsWith("/apprendreturc/docs/"));
+
+      const idx = lunr(function () {
+        this.ref("url");
+        this.field("title");
+        this.field("content");
+
+        docs.forEach(function (doc) {
+          this.add(doc);
+        }, this);
+      });
+
+      searchInput.addEventListener("input", function () {
+        const query = this.value.trim();
+        resultsContainer.innerHTML = "";
+
+        if (!query) {
+          resultsContainer.style.display = "none";
+          return;
+        }
+
+        const results = idx.search(query);
+        resultsContainer.style.display = results.length ? "block" : "none";
+
+        results.forEach(result => {
+          const doc = docs.find(d => d.url === result.ref);
+          const el = document.createElement("div");
+          el.innerHTML = `
+            <div style="margin-bottom: 1em;">
+              <a href="${doc.url}" style="font-weight:bold;">${doc.title}</a>
+              <p>${doc.content.substring(0, 150)}...</p>
+            </div>`;
+          resultsContainer.appendChild(el);
+        });
+      });
+    });
+});
