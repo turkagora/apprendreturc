@@ -17,17 +17,21 @@ document.addEventListener("DOMContentLoaded", function () {
         }, this);
       });
 
-      searchInput.addEventListener("input", function () {
-        const query = this.value.trim();
+      function runSearch(query) {
         resultsContainer.innerHTML = "";
 
-        if (!query) {
+        if (!query || query.length < 2) {
           resultsContainer.style.display = "none";
           return;
         }
 
         const results = idx.search(query);
         resultsContainer.style.display = results.length ? "block" : "none";
+
+        if (results.length === 0) {
+          resultsContainer.innerHTML = "<p>Aucun résultat trouvé.</p>";
+          return;
+        }
 
         results.forEach(result => {
           const doc = docs.find(d => d.url === result.ref);
@@ -39,6 +43,23 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>`;
           resultsContainer.appendChild(el);
         });
+      }
+
+      searchInput.addEventListener("input", function () {
+        runSearch(this.value.trim());
+      });
+
+      searchInput.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          runSearch(this.value.trim());
+        }
+      });
+
+      document.addEventListener("click", function (e) {
+        if (!searchInput.contains(e.target) && !resultsContainer.contains(e.target)) {
+          resultsContainer.style.display = "none";
+        }
       });
     });
 });
