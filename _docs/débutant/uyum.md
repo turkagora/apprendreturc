@@ -34,14 +34,14 @@ Mais il n'est pas nécessaire d'entrer dans ces détails. Pour trouver la bonne 
 
 ### 📌 Exemples :
 
-### 🔹 Pluriel (Type A : `-lar` / `-ler`)
+**🔹 Pluriel (Type A : `-lar` / `-ler`)**
 
 > 👉 On regarde **la dernière voyelle** du mot :
 
 - `ev` (maison) → **evler** (maisons)  
 - `kapı` (porte) → **kapılar** (portes)
 
-### 🔸 Possessif (Type B : `ı/i/u/ü`)
+**🔸 Possessif (Type B : `ı/i/u/ü`)**
 
 - `evim` → **ma maison**  
 - `evin` → **ta maison**  
@@ -54,7 +54,7 @@ Mais il n'est pas nécessaire d'entrer dans ces détails. Pour trouver la bonne 
 
 ---
 
-## 🚧 D'autres suffixes
+**🚧 D'autres suffixes**
 
 Il existe aussi d’autres suffixes soumis à l’harmonie vocalique :
 
