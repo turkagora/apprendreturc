@@ -6,16 +6,20 @@ redirect_from: /docs/uyum.md
 
 ## 🧠 Règle Principale
 
-L'harmonie vocalique est une règle phonétique essentielle du turc qui régit l’accord des voyelles dans un mot et ses suffixes. C’est un des principes fondamentaux de la phonologie turque.
+L’**harmonie vocalique** est une règle phonétique **essentielle** du turc.  
+Elle dicte que les **voyelles d’un mot et de ses suffixes** doivent appartenir à la **même famille phonétique**, selon :
 
-L’idée générale est simple : les voyelles à l’intérieur d’un mot doivent appartenir à la même "famille" selon certaines caractéristiques phonétiques, notamment l'ouverture (fermée ou ouverte), la position de la langue (antérieure ou postérieure), et le degré d'arrondissement des lèvres.
+- 🔹 L’ouverture : **fermée** ou **ouverte**  
+- 🔹 La position de la langue : **antérieure** ou **postérieure**  
+- 🔹 L’arrondissement : **lèvres arrondies** ou non  
 
 En turc, les suffixes suivent cette harmonie pour s’adapter à la voyelle du mot auquel ils s’ajoutent.
 
-Il existe **deux types de suffixes**, que nous appellerons **type A** et **type B** :
+Mais il n'est pas nécessaire d'entrer dans ces détails. Pour trouver la bonne variante de suffixe selon l'harmonie vocalique, il suffit de savoir qu'il existe **deux types de suffixes**, que nous appellerons **type A** et **type B** :
 
 * **Type A** : suffixes contenant *a* ou *e*
 * **Type B** : suffixes contenant *ı*, *i*, *u*, *ü*
+
 
 ## 📒 Tableau simplifié pour deviner les suffixes
 
@@ -26,22 +30,38 @@ Il existe **deux types de suffixes**, que nous appellerons **type A** et **type 
 | `o` ou `u`            | `a`                    | `u`                        |
 | `ö` ou `ü`            | `e`                    | `ü`                        |
 
+
+
 ### 📌 Exemples :
 
-#### Pour deviner la bonne forme du suffixe, on regarde la dernière voyelle du mot.
+### 🔹 Pluriel (Type A : `-lar` / `-ler`)
 
-* Le suffixe **pluriel** appartient au **type A**, car il a deux formes : `-lar` ou `-ler`
-  👉 `ev` (maison) → `evler` (maisons)
-  👉 `kapı` (porte) → `kapılar` (portes)
+> 👉 On regarde **la dernière voyelle** du mot :
 
-* Les suffixes **possessifs** sont du **type B** car ils contiennent une voyelle parmi `ı`, `i`, `u`, `ü` :
-  👉 `evim` (ma maison), `evin` (ta maison)
-  👉 `kızımız` (notre fille), `kızınız` (votre fille)
-  👉 `düşü` (son rêve), `düşümüz` (notre rêve),
-  👉 `okulum` (mon école), `okulu` (son école), 
+- `ev` (maison) → **evler** (maisons)  
+- `kapı` (porte) → **kapılar** (portes)
 
-D'autres suffixes peuvent également être conçus, comme "-da/de" du cas locatif, "-sız/-siz" pour donne le sens de "sans" en français etc., mais pour ne pas aller trop loin, nous nous arrêterons ici.
+### 🔸 Possessif (Type B : `ı/i/u/ü`)
+
+- `evim` → **ma maison**  
+- `evin` → **ta maison**  
+- `kızımız` → **notre fille**  
+- `kızınız` → **votre fille**  
+- `düşü` → **son rêve**  
+- `düşümüz` → **notre rêve**  
+- `okulum` → **mon école**  
+- `okulu` → **son école**
+
 ---
+
+## 🚧 D'autres suffixes
+
+Il existe aussi d’autres suffixes soumis à l’harmonie vocalique :
+
+- `-da / -de` → **locatif** ("à, dans")
+- `-sız / -siz` → **privation** ("sans")
+
+📎 On les abordera dans d’autres leçons pour ne pas surcharger cette introduction.
 
 ## 💡 Astuce pour l’apprentissage
 
