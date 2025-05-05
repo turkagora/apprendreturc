@@ -2,36 +2,51 @@
 layout: default
 ---
 
-<div class="header-container jumbotron">
-    <div class="container">
-        <h1>Bienvenue sur ApprendreTurc</h1>
-        <p>Une plateforme simple et moderne pour apprendre le turc facilement, à votre rythme, en partant de zéro ou en consolidant vos bases.</p>
-        <p><a class="btn btn-primary btn-lg" href="{{ "/docs/home/" | relative_url }}" role="button">Commencer les cours</a></p>
+<main>
+  <div class="jumbotron text-white bg-primary mb-5">
+    <div class="container py-5">
+      <h1 class="display-4">Bienvenue sur <strong>ApprendreTurc</strong></h1>
+      <p class="lead">Une plateforme simple et moderne pour apprendre le turc facilement, à votre rythme, en partant de zéro ou en consolidant vos bases.</p>
+      <a class="btn btn-light btn-lg mt-3" href="{{ "/docs/home/" | relative_url }}" role="button">
+        🚀 Commencer les cours
+      </a>
     </div>
-</div>
+  </div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <h2 class="header-light regular-pad">Pourquoi apprendre le turc ?</h2>
-              <p class="lead">Le turc est une langue fascinante, parlée par plus de 80 millions de personnes. Que vous soyez passionné par la culture, les séries turques, ou que vous prépariez un voyage, <strong>ApprendreTurc</strong> vous accompagne pas à pas.</p>
+  <div class="container">
+    <section class="mb-5">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="mb-4">Pourquoi apprendre le turc ?</h2>
+          <p class="lead">Le turc est une langue fascinante, parlée par plus de 80 millions de personnes. Que vous soyez passionné par la culture, les séries turques, ou que vous prépariez un voyage, <strong>ApprendreTurc</strong> vous accompagne pas à pas.</p>
         </div>
-    <hr>
-    <div class="row">
-        <div class="col-sm-4">
-            <h1 class="text-center"><i class="fa fa-book" aria-hidden="true"></i></h1>
-            <h3 class="text-center">Des cours pour tous niveaux</h3>
-            <p>Commencez par les bases ou passez au niveau intermédiaire ou avancé. Nos cours sont conçus pour les francophones, avec des explications claires et progressives.</p>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <div class="p-4 shadow-sm rounded bg-light h-100">
+            <i class="fa fa-book fa-3x mb-3 text-primary"></i>
+            <h4 class="mb-3">Des cours pour tous niveaux</h4>
+            <p>Débutez ou progressez avec des cours conçus spécialement pour les francophones.</p>
+          </div>
         </div>
-        <div class="col-sm-4">
-            <h1 class="text-center"><i class="fa fa-video-camera" aria-hidden="true"></i></h1>
-            <h3 class="text-center">Vidéos explicatives</h3>
-            <p>Apprenez avec des vidéos dynamiques et engageantes, accompagnées de supports écrits. Idéal pour les apprenants visuels.</p>
+        <div class="col-md-4 mb-4">
+          <div class="p-4 shadow-sm rounded bg-light h-100">
+            <i class="fa fa-video-camera fa-3x mb-3 text-primary"></i>
+            <h4 class="mb-3">Vidéos explicatives</h4>
+            <p>Apprenez avec des vidéos claires et motivantes, accompagnées de supports écrits.</p>
+          </div>
         </div>
-        <div class="col-sm-4">
-            <h1 class="text-center"><i class="fa fa-comments" aria-hidden="true"></i></h1>
-            <h3 class="text-center">Pratique et accompagnement</h3>
-            <p>Réservez des cours privés ou participez à des échanges. Nous croyons que la meilleure façon d’apprendre est de pratiquer régulièrement.</p>
+        <div class="col-md-4 mb-4">
+          <div class="p-4 shadow-sm rounded bg-light h-100">
+            <i class="fa fa-comments fa-3x mb-3 text-primary"></i>
+            <h4 class="mb-3">Pratique et accompagnement</h4>
+            <p>Réservez des cours privés ou échangez avec des pairs pour pratiquer activement.</p>
+          </div>
         </div>
-    </div>
-</div>
+      </div>
+    </section>
+  </div>
+</main>
