@@ -1,4 +1,8 @@
-# Harmonie Vocalique (ünlü uyumu)
+---
+title: "Harmonie Vocalique (ünlü uyumu)"
+permalink: /docs/uyum/
+redirect_from: /docs/uyum.md
+---
 
 ## 🧠 Règle Principale
 
