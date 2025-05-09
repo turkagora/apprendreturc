@@ -48,7 +48,7 @@ defaults:
     type: docs
   values:
     layout: docs
-    sectionid: Cours de grammaire
+    sectionid: docs
     seo:
       type: "WebPage"
 
