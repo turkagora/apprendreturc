@@ -32,10 +32,10 @@ Pour simplifier l’apprentissage, commençons par les trois premières personne
 
 Voici comment les suffixes s’adaptent selon les voyelles du mot, en respectant l’**harmonie vocalique de type B** (ı, i, u, ü) :
 
-![je suis](assets/img/pageimages/olmak.jpeg)
+![je suis](/assets/img/pageimages/olmak.jpeg)
 
 > Voici un petit rappel graphique de la règle spécifiquement pour **"Ben (Je)"**:
 
-![ımimumüm](assets/img/pageimages/jesuis.PNG)
+![ımimumüm](/assets/img/pageimages/jesuis.PNG)
 
 
