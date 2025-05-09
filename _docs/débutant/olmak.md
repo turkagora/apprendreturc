@@ -19,19 +19,22 @@ En turc, le verbe “être” n’existe pas au présent comme en français. À 
 
 #### 🧩 Le système des suffixes de "être" au présent
 
-| **Personne**  | **Suffixe (forme de “être”)**|
-| --------- | ----------------------------- |
-| Je        | -**-ım, -im, -um, -üm**       |
-| Tu        | -**-sın, -sin, -sun, sün**    |
-| Il/elle   | **ø** (rien !)                |
+Pour simplifier l’apprentissage, commençons par les trois premières personnes du singulier.
 
-Attention, à chaque fois les suffixes changent selon [l'harmonie vocalique qu'on a traité ici.](https://www.apprendreturc.com/apprendreturc/docs/uyum/).
+| **Personne**  | **Suffixe (forme de “être”)**      |
+| ------------- | ---------------------------------- |
+| Ben (Je)      | -**ım, -im, -um, -üm**             |
+| Sen (Tu)      | -**sın, -sin, -sun, -sün**         |
+| O (Il / Elle) | **ø** (aucun suffixe nécessaire !) |
 
-Voici quelques examples comment les suffixes changent selon l'harmonie vocalique pour la première personne "ben":
+
+> 🗣️ Remarque : Le suffixe change selon les règles de l’harmonie vocalique. Si tu n’es pas encore familier avec cette notion, consulte [le sujet qu'on a traité ici.](https://www.apprendreturc.com/apprendreturc/docs/uyum/).
+
+Voici comment les suffixes s’adaptent selon les voyelles du mot, en respectant l’**harmonie vocalique de type B** (ı, i, u, ü) :
 
 ![je suis](/assets/img/pageimages/olmak.jpeg)
 
-Donc il s'agit du type b de l'harmonie vocalique (suffixes contenant ı, i, u, ü) est la règle nous dit cela:
+> Voici un petit rappel graphique de la règle spécifiquement pour **"Ben (Je)"**:
 
 ![ımimumüm](/assets/img/pageimages/jesuis.png)
 
