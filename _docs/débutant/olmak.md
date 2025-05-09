@@ -1,7 +1,7 @@
 ---
 title: "Dire « je suis », « tu es », « il est » en turc... sans verbe"
-permalink: /docs/uyum/
-redirect_from: /docs/uyum.md
+permalink: /docs/olmak/
+redirect_from: /docs/olmak.md
 ---
 
 En turc, le verbe “être” n’existe pas au présent comme en français. À la place, on utilise des suffixes collés directement aux mots !
