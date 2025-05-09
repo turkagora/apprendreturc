@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "Jekyll Doc Theme is published!"
-author: aksakalli
+title:  "This page is under construction"
+author: Tayfun
 ---
-A new custom Jekyll theme for documentation and blogging is out. It is ideal for Open Source Software projects to publish under [GitHub Pages](https://pages.github.com).
-
-Your contribution is welcome!
+Cette page est en cours de construction.
