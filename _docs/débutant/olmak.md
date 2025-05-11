@@ -28,7 +28,7 @@ Pour simplifier l’apprentissage, commençons par les trois premières personne
 | O (Il / Elle) | **ø** (aucun suffixe nécessaire !) |
 
 
-> 🗣️ Remarque : Le suffixe change selon les règles de l’harmonie vocalique. Si tu n’es pas encore familier avec cette notion, consulte [le sujet qu'on a traité ici.](https://www.apprendreturc.com/apprendreturc/docs/uyum/).
+> 🗣️ Remarque : Le suffixe change selon les règles de l’harmonie vocalique. Si tu n’es pas encore familier avec cette notion, consulte [le sujet qu'on a traité ici.](https://apprendreturc.com/docs/uyum/).
 
 Voici comment les suffixes s’adaptent selon les voyelles du mot, en respectant l’**harmonie vocalique de type B** (ı, i, u, ü) :
 
