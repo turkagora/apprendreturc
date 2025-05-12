@@ -1,5 +1,5 @@
 ---
-title: "Dire « je suis », « tu es », « il est » en turc... sans verbe"
+title: "Le verbe invisible du turc : comment conjuger « être » sans le dire ?"
 permalink: /docs/olmak/
 redirect_from: /docs/olmak.md
 ---
