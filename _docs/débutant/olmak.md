@@ -46,16 +46,25 @@ Voici comment les suffixes s’adaptent selon les voyelles du mot, en respectant
 
 Maintenant que tu maîtrises "Ben", "Sen" et "O", voyons comment former "**nous sommes**", "**vous êtes**" et "**ils/elles sont**" en turc.
 
+Voici le tableau qui montre les suffixes des trois autres personnes:
+
+| **Personne**     | **Suffixe (forme de “être”)**                                   |
+|------------------|-----------------------------------------------------------------|
+| Biz (Nous)       | -**ız**, -**iz**, -**uz**, -**üz**                              |
+| Siz (Vous)       | -**sınız**, -**siniz**, -**sunuz**, -**sünüz**                  |
+| Onlar (Ils/Elles)| **-lar**, **-ler** *(pas un vrai suffixe d’« être », seulement le pluriel)* |
+
+
 #### 👥 **Biz** (Nous)
 
 Pour "Biz", on utilise l’un des suffixes : `-ız`, `-iz`, `-uz`, `-üz` selon la dernière voyelle du mot.
 
 | **Mot**        | **Dernière voyelle** | **Suffixe** | **Phrase complète**        | **Traduction**            |
-|----------------|----------------------|-------------|-----------------------------|----------------------------|
-| Öğrenci        | i                    | -yiz        | Biz öğrenciyiz              | Nous sommes étudiant·es   |
-| Türk           | ü                    | -üz         | Biz Türküz                  | Nous sommes Turcs         |
-| Mutlu          | u                    | -yuz        | Biz mutluyuz                | Nous sommes heureux·ses   |
-| Fransız        | ı                    | -ız         | Biz Fransızız               | Nous sommes Français·es   |
+|----------------|----------------------|-------------|----------------------------|---------------------------|
+| Öğrenci        | i                    | -iz         | Biz öğrenci**y***iz*       | Nous sommes étudiant·es   |
+| Fransız        | ı                    | -ız         | Biz Fransız*ız*            | Nous sommes français/fançaise |
+| Mutlu          | u                    | -yuz        | Biz mutluyuz               | Nous sommes heureux·ses  |
+| Fransız        | ü                    | -üz         | Biz Türküz                 | Nous sommes turcs/turques   |
 
 > 🔎 *Nous ajoutons parfois un `-y-` pour faire la liaison si le mot se termine par une voyelle, comme dans l'exemple de öğrenci dans le tableau ci-dessus.*
 
@@ -70,7 +79,7 @@ Pour "Siz", on ajoute : `-sınız`, `-siniz`, `-sunuz`, `-sünüz`.
 | Yabancı        | ı                    | -sınız        | Siz yabancısınız             | Vous êtes étrangers/ères     |
 | Güzel          | e                    | -siniz        | Siz güzelsiniz               | Vous êtes beaux/belles       |
 | Doktor         | o                    | -sunuz        | Siz doktorsunuz              | Vous êtes médecins           |
-| Hemşire        | e                    | -siniz        | Siz hemşiresiniz             | Vous êtes infirmier·ères     |
+| Dürüst         | ü                    | -sünüz        | Siz dürüstsünüz              | Vous êtes honnête            |
 
 ---
 
