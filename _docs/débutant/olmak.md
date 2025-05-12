@@ -246,6 +246,20 @@ Pour "Onlar", il n’y a **pas de suffixe "être" spécifique**. On utilise simp
 <p id="result"></p>
 
 <script>
+
+    // Réinitialise le formulaire à chaque chargement
+  window.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById("quiz-form");
+    if (form) {
+      form.reset(); // remets toutes les sélections à vide
+    }
+
+    const result = document.getElementById("result");
+    if (result) {
+      result.innerHTML = ""; // efface les résultats précédents
+    }
+  });
+  
   function checkQuiz() {
     const answers = {
       q1: "b",  // doktorum
