@@ -70,19 +70,32 @@
   transform-origin: center;
 }
 
-@media (max-width: 900px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .illustration {
-    margin-top: 250px;
-  }
+/* Circle Section */
+.circle-wrapper {
+  width: 100%;
+  padding: 100px 0;
+  background: radial-gradient(
+    circle at 25% 60%, #C7DAF3 0%, transparent 40%
+  ),
+  radial-gradient(circle at 60% 30%, #B3CBED 0%, transparent 50%),
+  radial-gradient(circle at 85% 75%, #C1D5F1 0%, transparent 40%),
+  #C7DAF3;
 }
 
-
-/* ciecle part */
+.circle-section {
+  position: relative;
+  text-align: center;
+  margin: 100px auto;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(
+    circle at 25% 60%, #d7e5f5 0%, transparent 55%
+  ),
+  radial-gradient(circle at 60% 30%, #c6daf2 0%, transparent 60%),
+  radial-gradient(circle at 85% 75%, #e0edf9 0%, transparent 50%),
+  #d7e5f5;
+  border-radius: 50%;
+}
 
 .circle-image-container {
   position: relative;
@@ -116,35 +129,6 @@
   pointer-events: none;
 }
 
-.circle-section {
-  position: relative;
-  text-align: center;
-  margin: 100px auto;
-  width: 800px;
-  height: 800px;
-  background: radial-gradient(
-    circle at 25% 60%, #d7e5f5 0%, transparent 55%
-  ),
-  radial-gradient(circle at 60% 30%, #c6daf2 0%, transparent 60%),
-  radial-gradient(circle at 85% 75%, #e0edf9 0%, transparent 50%),
-  #d7e5f5;
-  border-radius: 50%;
-}
-
-
-.circle-wrapper {
-  width: 100%;
-  padding: 100px 0;
-  background: radial-gradient(
-    circle at 25% 60%, #C7DAF3 0%, transparent 40%
-  ),
-  radial-gradient(circle at 60% 30%, #B3CBED 0%, transparent 50%),
-  radial-gradient(circle at 85% 75%, #C1D5F1 0%, transparent 40%),
-  #C7DAF3;
-}
-
-
-
 .circle-center {
   position: absolute;
   top: 50%;
@@ -157,10 +141,63 @@
   gap: 20px;
 }
 
-
+/* Highlighted text title */
 .highlighted-title {
   font-size: 20px;
   font-weight: bold;
-  color: #7f9cf5; /* You can choose any color that fits */
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow for emphasis */
+  color: #7f9cf5;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .illustration {
+    margin-top: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .circle-section {
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+    border-radius: 0;
+    background: linear-gradient(to bottom, #d7e5f5, #e0edf9);
+  }
+
+  .circle-image-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: static;
+  }
+
+  .circle-item {
+    position: static;
+    transform: none;
+  }
+
+  .circle-item img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .image-text {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .circle-center {
+    position: static;
+    transform: none;
+    margin-bottom: 30px;
+  }
 }
