@@ -1,0 +1,1 @@
+\_sass\_jekyll-doc-theme : bunu içindeki                background: url('../img/pageimages/bg.jpg') no-repeat 50% 0;               satırı arkaplanı belirliyor.
