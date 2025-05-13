@@ -1,0 +1,166 @@
+/* General resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 10%;
+  min-height: 100vh;
+  background: radial-gradient(
+    circle at 20% 50%, #C7DAF3 0%, transparent 40%),
+    radial-gradient(circle at 50% 0%, #B3CBED 0%, transparent 50%),
+    radial-gradient(circle at 90% 50%, #C1D5F1 0%, transparent 40%),
+    #C7DAF3;
+}
+
+.text-content {
+  flex: 1 1 400px;
+  max-width: 600px;
+  z-index: 2;
+}
+
+.text-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #2C3E50;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.btn {
+  padding: 14px 28px;
+  background-color: #7f9cf5;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #5a7be0;
+}
+
+.illustration {
+  flex: 1 1 400px;
+  max-width: 600px;
+  z-index: 1;
+}
+
+.illustration img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transform: scale(1.5);
+  transform-origin: center;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .illustration {
+    margin-top: 250px;
+  }
+}
+
+
+/* ciecle part */
+
+.circle-image-container {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.circle-item {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.circle-item img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Text next to image */
+.image-text {
+  background: transparent;
+  color: #2C3E50;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.circle-section {
+  position: relative;
+  text-align: center;
+  margin: 100px auto;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(
+    circle at 25% 60%, #d7e5f5 0%, transparent 55%
+  ),
+  radial-gradient(circle at 60% 30%, #c6daf2 0%, transparent 60%),
+  radial-gradient(circle at 85% 75%, #e0edf9 0%, transparent 50%),
+  #d7e5f5;
+  border-radius: 50%;
+}
+
+
+.circle-wrapper {
+  width: 100%;
+  padding: 100px 0;
+  background: radial-gradient(
+    circle at 25% 60%, #C7DAF3 0%, transparent 40%
+  ),
+  radial-gradient(circle at 60% 30%, #B3CBED 0%, transparent 50%),
+  radial-gradient(circle at 85% 75%, #C1D5F1 0%, transparent 40%),
+  #C7DAF3;
+}
+
+
+
+.circle-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.highlighted-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #7f9cf5; /* You can choose any color that fits */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow for emphasis */
+}
