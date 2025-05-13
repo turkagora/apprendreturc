@@ -1,1 +1,8 @@
-\_sass\_jekyll-doc-theme : bunu içindeki                background: url('../img/pageimages/bg.jpg') no-repeat 50% 0;               satırı arkaplanı belirliyor.
+\_sass\_jekyll-doc-theme : bunu içindeki                background: url('../img/pageimages/bg.jpg') no-repeat 50% 0;               satırı arkaplanı belirliyor. Bunu kullanmıyorum artık.
+
+
+Index.html içinde transform.svg arka planım.
+
+assets/js/homepageimageandtext.js ----- bununla hareketli resimlerin çemberini oluşturdum.
+
+aseets/css/homepage.css ile de anasayfadaki hareketli imaj ve metinlerin stilini belirledim.
