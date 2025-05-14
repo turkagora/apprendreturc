@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   const container = document.querySelector('.circle-image-container');
-  const radius = 300; // Distance from the center
+  const radius = window.innerWidth < 768 ? 120 : 300; // Distance from the center
 
   sectionsData.forEach((data, index) => {
     const angleDeg = (360 / sectionsData.length) * index;
