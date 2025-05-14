@@ -8,22 +8,37 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   const container = document.querySelector('.circle-image-container');
-  const count = sectionsData.length;
-  const angleStep = 360 / count;
+  const radius = 300; // Distance from the center
 
   sectionsData.forEach((data, index) => {
-    const angle = angleStep * index;
+    const angleDeg = (360 / sectionsData.length) * index;
+    const angleRad = angleDeg * (Math.PI / 180);
+    const x = radius * Math.cos(angleRad);
+    const y = radius * Math.sin(angleRad);
+
     const item = document.createElement('div');
-    item.className = 'circle-item';
-    item.style.transform = `rotate(${angle}deg) translate(0, -40vmin) rotate(-${angle}deg)`;
+    item.classList.add('circle-item');
+    item.style.left = `calc(50% + ${x}px)`;
+    item.style.top = `calc(50% + ${y}px)`;
 
     const img = document.createElement('img');
     img.src = data.image;
     img.alt = data.title;
 
     const label = document.createElement('div');
-    label.className = 'image-text';
-    label.innerHTML = `<strong class="highlighted-title">${data.title}</strong><br>${data.text}`;
+    label.classList.add('image-text');
+    label.innerHTML = `<strong>${data.title}</strong><br>${data.text}`;
+
+    // Optional: Adjust label positioning per quadrant (optional)
+    if (angleDeg >= 45 && angleDeg < 135) {
+      label.style.top = '60%'; // bottom
+    } else if (angleDeg >= 135 && angleDeg < 225) {
+      label.style.left = '-60%'; // left
+    } else if (angleDeg >= 225 && angleDeg < 315) {
+      label.style.bottom = '60%'; // top
+    } else {
+      label.style.right = '-60%'; // right
+    }
 
     item.appendChild(img);
     item.appendChild(label);
