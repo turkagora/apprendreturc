@@ -27,7 +27,7 @@ finalSection.className = 'final-section';
 finalSection.innerHTML = `
   <h1>Avez-vous besoin des cours privés?</h1>
   <p>Contactez-nous!</p>
-  <button onclick="window.location.href='/contact/'" class="btn" style="margin-top: 30px;">Contacter</button>
+  <button onclick="window.location.href='/contact'" class="btn" style="margin-top: 30px;">Contacter</button>
 `;
   document.body.appendChild(finalSection);
 
