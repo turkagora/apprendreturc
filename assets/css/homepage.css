@@ -167,14 +167,26 @@ html, body {
 }
 
 @media (max-width: 768px) {
+  .circle-image-container,
   .circle-section {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 20px;
+    width: 90vw;
+    height: 90vw; /* Keep it a square */
+  }
+
+  .circle-item img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .image-text {
+    font-size: 12px;
   }
 }
+
+
+
+
+
 
   .circle-image-container {
     width: 100%;
