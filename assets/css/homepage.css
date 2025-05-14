@@ -1,3 +1,8 @@
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 /* General resets */
 * {
   margin: 0;
@@ -165,10 +170,11 @@
   .circle-section {
     width: 100%;
     height: auto;
-    padding: 40px 20px;
-    border-radius: 0;
-    background: linear-gradient(to bottom, #d7e5f5, #e0edf9);
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
   }
+}
 
   .circle-image-container {
     width: 100%;
