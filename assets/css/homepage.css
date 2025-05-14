@@ -78,30 +78,17 @@ body {
   transform-origin: center;
 }
 
-@media (max-width: 900px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .illustration {
-    margin-top: 250px;
-  }
-}
-
-/* Middle Section: Découvrir Button before images */
 .middle-section {
   text-align: center;
   padding: 60px 10%;
-  background: #E1EDF7; /* Slightly different background for the section */
-  margin-top: -100px; /* To pull the section up closer to the hero */
+  background: #E1EDF7;
+  margin-top: -100px;
 }
 
 .middle-section .btn {
   margin-top: 30px;
 }
 
-/* Final Section: Contacter Button after images */
 .final-section {
   text-align: center;
   padding: 80px 10%;
@@ -117,10 +104,9 @@ body {
   margin-top: 30px;
 }
 
-/* Horizontal Scroll Section */
 .horizontal-scroll-section {
   position: relative;
-  height: 300vh; /* enough scroll space */
+  height: 300vh;
   background: #C7DAF3;
 }
 
@@ -130,11 +116,20 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
-  will-change: transform;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
 }
+
+.scroll-gallery::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Opera */
+}
+
 
 .scroll-item {
   min-width: 50vw;
+  scroll-snap-align: start;
   height: 50%;
   display: flex;
   flex-direction: column;
@@ -158,7 +153,6 @@ body {
   object-position: center;
 }
 
-/* Animated images text part */
 .scroll-item .text-content {
   max-width: 600px;
   background: rgba(255, 255, 255, 0.85);
