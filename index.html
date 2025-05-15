@@ -1,38 +1,349 @@
 ---
 layout: default
 ---
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>EduLearn - Learn Anywhere</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>ApprendreTurc - Maîtrisez la langue turque</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="assets/css/homepage.css">
 </head>
 <body>
 
-  <section class="hero">
-    <div class="text-content">
-      <h1>Learn Anytime, Anywhere</h1>
-      <p>Access thousands of online courses, interactive lessons, and resources to boost your skills at your own pace.</p>
-      <a href="/docs" class="btn">Commencer à apprendre</a>
-    </div>
+  <!-- Mobile friendly scaling -->
 
-    <div class="illustration">
-      <img src="assets/img/transform.svg" alt="Learning Illustration" />
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const navLinks = document.querySelector('.nav-links');
+
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+</script>
+
+
+
+
+  <!-- Animated Background Elements -->
+  <div class="bg-elements">
+    <div class="circle circle-1"></div>
+    <div class="circle circle-2"></div>
+    <div class="circle circle-3"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="main-nav">
+    <div class="nav-container">
+      <a href="/" class="logo">Apprendre<span>Turc</span></a>
+      <div class="nav-links">
+        <a href="/blog">Blog</a>
+        <a href="/frkelimeler/">Mots Français</a>
+        <a href="/cours">Cours</a>
+        <a href="/contact" class="nav-btn">Contact</a>
+      </div>
+      <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="welcome-message">
+        <h1>Bienvenu <span>Hoşgeldiniz</span></h1>
+        <p class="intro-text">ApprendreTurc est une plateforme en constante évolution qui met à votre disposition des cours de grammaire et des articles sur tous les aspects de la langue turque.</p>
+        <div class="cta-buttons">
+          <a href="/docs" class="btn primary-btn">Commencer à apprendre</a>
+          <a href="#french-words" class="btn secondary-btn">Découvrir les similarités</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/img/transform.svg" alt="Turkish culture illustration">
+        <div class="language-bubbles">
+          <span class="bubble">Merhaba</span>
+          <span class="bubble">Nasılsın?</span>
+          <span class="bubble">Selam</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Explorez</span>
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
     </div>
   </section>
 
-  <div class="middle-section" id="join">
-    <h1>Vous connaissez déjà un peu de turc!</h1>
-    <p>En tant que francophone, vous connaissez déjà des milliers de mots utilisés en turc qui viennent du français. Vous n'avez qu'à les découvrir.</p>
-    <a href="/frkelimeler/" class="btn" style="margin-top: 30px;">Découvrir</a>
-  </div>
+  <!-- French Words Section -->
+  <section class="french-words" id="french-words">
+    <div class="section-header">
+      <h2>Vous connaissez déjà un peu de turc!</h2>
+      <p>En tant que francophone, vous connaissez déjà des centaines de mots turcs d'origine française. Découvrez ces similarités qui faciliteront votre apprentissage.</p>
+    </div>
+    
+    <div class="word-carousel">
+      <div class="carousel-container">
+        <div class="word-card">
+          <div class="word-image">
+            <img src="assets/img/animatedimages/kuafor.svg" alt="Kuaför">
+            <div class="origin-tag">Français</div>
+          </div>
+          <div class="word-info">
+            <h3>Kuaför</h3>
+            <p class="origin">← Coiffeur</p>
+          </div>
+        </div>
+        
+        <div class="word-card">
+          <div class="word-image">
+            <img src="assets/img/animatedimages/dansoz.svg" alt="Lavabo">
+            <div class="origin-tag">Français</div>
+          </div>
+          <div class="word-info">
+            <h3>Dansöz</h3>
+            <p class="origin">← Danseuse</p>
+          </div>
+        </div>
+        
+        <div class="word-card">
+          <div class="word-image">
+            <img src="assets/img/animatedimages/plaj.svg" alt="Plaj">
+            <div class="origin-tag">Français</div>
+          </div>
+          <div class="word-info">
+            <h3>Plaj</h3>
+            <p class="origin">← Plage</p>
+          </div>
+        </div>
+        
+        <div class="word-card">
+          <div class="word-image">
+            <img src="assets/img/animatedimages/borsa.svg" alt="Kuzen">
+            <div class="origin-tag">Français</div>
+          </div>
+          <div class="word-info">
+            <h3>Borsa</h3>
+            <p class="origin">← Bourse</p>
+          </div>
+        </div>
+		
+		<div class="word-card">
+          <div class="word-image">
+            <img src="assets/img/animatedimages/valiz.svg" alt="Kuzen">
+            <div class="origin-tag">Français</div>
+          </div>
+          <div class="word-info">
+            <h3>Valiz</h3>
+            <p class="origin">← Valise</p>
+          </div>
+        </div>
+		
+		<div class="word-card">
+          <div class="word-image">
+            <img src="assets/img/animatedimages/dus.svg" alt="Kuzen">
+            <div class="origin-tag">Français</div>
+          </div>
+          <div class="word-info">
+            <h3>Duş</h3>
+            <p class="origin">← Douche</p>
+          </div>
+        </div>
+		
+		<div class="word-card">
+          <div class="word-image">
+            <img src="assets/img/animatedimages/makyaj.svg" alt="Kuzen">
+            <div class="origin-tag">Français</div>
+          </div>
+          <div class="word-info">
+            <h3>Makyaj</h3>
+            <p class="origin">← Maquillage</p>
+          </div>
+        </div>
+		
+		<div class="word-card">
+          <div class="word-image">
+            <img src="assets/img/animatedimages/manken.svg" alt="Kuzen">
+            <div class="origin-tag">Français</div>
+          </div>
+          <div class="word-info">
+            <h3>Manken</h3>
+            <p class="origin">← Mannequin</p>
+          </div>
+        </div>
+		
+		
+      </div>
+      
+<div class="carousel-nav">
+  <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+  <div class="carousel-dots"></div>
+  <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+</div>
+    </div>
+    
+    <a href="/frkelimeler/" class="discover-more">
+      <span>Pour en découvrir plus</span>
+      <i class="fas fa-long-arrow-alt-right"></i>
+    </a>
+  </section>
 
-  <!-- This script handles dynamic injection of the animated images (as defined in your JS file) -->
-  <script src="assets/js/homepageimageandtext.js"></script>
+  <!-- Latest Blog Posts -->
+  <section class="blog-posts">
+    <div class="section-header">
+      <h2>Derniers Articles du Blog</h2>
+      <p>Découvrez nos dernières publications sur la langue et la culture turque.</p>
+    </div>
+    
+<div class="post-grid">
+  {% for post in site.posts limit:3 %}
+  <article class="post-card">
+    <div class="post-content">
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+      <a href="{{ post.url | relative_url }}" class="read-more">Lire l'article <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </article>
+  {% endfor %}
+</div>
 
+    
+    <a href="/blog" class="view-all">Voir tous les articles <i class="fas fa-arrow-right"></i></a>
+  </section>
+
+  <!-- Online Lessons Section -->
+  <section class="online-lessons">
+    <div class="lessons-container">
+      <div class="lessons-image">
+        <img src="assets/img/online-lessons.svg" alt="Online Lessons">
+      </div>
+      <div class="lessons-content">
+        <h2>Cours de Turc en Ligne</h2>
+        <p>Profitez de cours particuliers adaptés à votre niveau et vos objectifs, dispensés par des professeurs expérimentés.</p>
+        
+        <div class="benefits-grid">
+          <div class="benefit-item">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h4>Cours Personnalisés</h4>
+            <p>Programmes adaptés à vos besoins spécifiques</p>
+          </div>
+          
+          <div class="benefit-item">
+            <i class="fas fa-clock"></i>
+            <h4>Horaires Flexibles</h4>
+            <p>Choisissez les créneaux qui vous conviennent</p>
+          </div>
+          
+          <div class="benefit-item">
+            <i class="fas fa-file-alt"></i>
+            <h4>Matériel Pédagogique</h4>
+            <p>Ressources et exercices inclus</p>
+          </div>
+          
+          <div class="benefit-item">
+            <i class="fas fa-certificate"></i>
+            <h4>Progrès Garantis</h4>
+            <p>Suivi régulier de votre évolution</p>
+          </div>
+        </div>
+        
+        <a href="/contact" class="btn primary-btn">
+          <i class="fas fa-calendar-check"></i> Réserver un cours
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter">
+    <div class="newsletter-container">
+      <h3>Restez informé</h3>
+      <p>Abonnez-vous à notre newsletter pour recevoir des conseils d'apprentissage, des ressources gratuites et des offres spéciales.</p>
+      
+      <form class="newsletter-form">
+        <input type="email" placeholder="Votre adresse email" required>
+        <button type="submit" class="btn primary-btn">
+          S'abonner <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="/" class="logo"><span>ApprendreTurc</span></a>
+        <p>Votre plateforme complète pour apprendre la langue turque, en ligne et à votre rythme.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Ressources</h4>
+        <ul>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/frkelimeler/">Mots Français</a></li>
+          <li><a href="/grammaire">Grammaire</a></li>
+          <li><a href="/vocabulaire">Vocabulaire</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Cours</h4>
+        <ul>
+          <li><a href="/cours">Cours en ligne</a></li>
+          <li><a href="/tarifs">Tarifs</a></li>
+          <li><a href="/professeurs">Nos professeurs</a></li>
+          <li><a href="/methode">Notre méthode</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li><i class="fas fa-envelope"></i> contact@apprendreturc.com</li>
+          <li><i class="fas fa-phone-alt"></i> +33 6 12 34 56 78</li>
+          <li><i class="fas fa-map-marker-alt"></i> Paris, France</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2023 ApprendreTurc. Tous droits réservés.</p>
+      <div class="legal-links">
+        <a href="/confidentialite">Confidentialité</a>
+        <a href="/conditions">Conditions d'utilisation</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
+
+
+<script
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const carousel = document.querySelector(".carousel-container");
+  const prevButton = document.querySelector(".carousel-prev");
+  const nextButton = document.querySelector(".carousel-next");
+  const scrollAmount = 300; // adjust for how much it scrolls per click
+
+  if (carousel && prevButton && nextButton) {
+    prevButton.addEventListener("click", () => {
+      carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    });
+
+    nextButton.addEventListener("click", () => {
+      carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    });
+  }
+});
+</script>
