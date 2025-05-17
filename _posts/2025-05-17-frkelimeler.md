@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mots turcs d'origine française 
-date:   2025-05-17 10:00:00
+date:   2025-05-17 09:41:09
 ---
 
 Depuis le XVIIIe siècle, beaucoup de ces mots sont largement utilisés dans notre langue. Ils se comptent par milliers. Certains gardent leur sens original en français, tandis que d'autres peuvent être de *faux amis*, c’est-à-dire qu’ils ressemblent beaucoup au mot français d’origine mais ont un sens différent.
