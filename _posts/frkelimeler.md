@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Mots turcs d'origine française 
-permalink: /docs/bootstrap/
 date:   2025-05-17 10:00:00
 ---
 
