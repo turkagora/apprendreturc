@@ -7,7 +7,7 @@ description: >
 lang: fr-FR
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://apprendreturc.com # the base hostname & protocol for your site
+url: https://www.apprendreturc.com # the base hostname & protocol for your site
 git_address: https://turkagora.github.io/apprendreturc/
 git_edit_address: https://turkagora.github.io/apprendreturc/
 
