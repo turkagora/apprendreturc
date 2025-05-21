@@ -140,57 +140,6 @@ On peut trouver des listes très longues sur Internet, notamment sur [Wiktionary
 </div>
 
 
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Mots français en turc</title>
-<style>
-  body {
-    font-family: sans-serif;
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 0 20px;
-  }
-
-  #word-list-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #word-list-container ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-
-  @media (min-width: 768px) {
-    #word-list-container {
-      flex-direction: row;
-      gap: 40px;
-    }
-  }
-
-  #pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin-top: 30px;
-  }
-
-  #reference {
-    margin-top: 40px;
-    text-align: center;
-    font-size: 0.9em;
-    color: #555;
-  }
-</style>
-</head>
-<body>
-
-
 <script>
   const words = [
     "abajur",  "abaküs",  "abamper",  "abandone",  "abataj",  "abazi",  "abdominohisterektomi", 
@@ -1043,8 +992,3 @@ container.innerHTML = `
 
   renderWords();
 </script>
-
-</body>
-</html>
-
-
