@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Origines et langues apparentées du turc"
-date:   2025-05-021 19:50:07
+date:   2025-05-21 19:50:07
 ---
 
 La Turquie moderne est aujourd’hui située au carrefour de l’Europe, de l’Asie et de l’Afrique, la région souvent appelée le « Moyen-Orient », cependant la langue turque n’est pas née dans cette région. Les véritables racines de la langue turque se trouvent en Asie centrale.
