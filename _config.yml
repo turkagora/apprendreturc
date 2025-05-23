@@ -1,8 +1,7 @@
 # Site settings
 title: ApprendreTurc
 email: your-email@domain.com
-description: >
-Apprendre le turc dès maintenant!
+description: Apprendre le turc dès maintenant!
 lang: fr-FR
 
 baseurl: "" # the subpath of your site, e.g. /blog/
