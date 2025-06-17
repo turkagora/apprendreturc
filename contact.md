@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-<html lang="fr">
-<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact - ApprendreTurc</title>
@@ -414,7 +412,6 @@ layout: default
       }
     }
   </style>
-</head>
 <body>
   <div class="bg-elements">
     <div class="circle circle-1"></div>
@@ -473,5 +470,4 @@ layout: default
       </div>
         
   </footer>
-</body>
 </html>
