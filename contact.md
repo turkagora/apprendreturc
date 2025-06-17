@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-
----
-layout: default
----
-<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
